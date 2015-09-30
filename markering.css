@@ -1,0 +1,35 @@
+/******************************************************************************************************
+		Forneden er der nogle justeringer der får boilerplaten til at ligne MAMs design.
+******************************************************************************************************/
+
+h1 {
+	margin: 40px 0px; 
+	line-height: 1em;
+}
+h2 {
+	margin: 30px 0px 20px 0px; 
+	line-height: 1em;
+}
+h4 {
+	margin: 0px; 
+	line-height: 1em;
+}
+
+
+.word{
+	cursor:pointer;
+}
+
+.word:hover{
+	border-radius: 2px;
+	background-color: #ccc;
+}
+
+.word_selected{
+	border-radius: 2px;
+	color:white;
+	background-color: #aaa;
+	height:4px;
+}
+
+
