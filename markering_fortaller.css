@@ -1,0 +1,130 @@
+
+body {
+    font-size: 14px;
+}
+.ydre_kasse {
+    background-color: #e9a1f6;
+    margin-right: 7px;
+
+    padding-right: 70px;
+    width: 70px;
+}
+.indre_kasse {
+    background-color: #cecfcf;
+    margin-right: 10px;
+    padding-right: 70px;
+    width: 70px;
+}
+.ydre {
+    background-color: #E9A1F6;
+}
+.indre {
+    background-color: #cecfcf;
+}
+.wordhover {
+    color: green;
+    cursor: pointer;
+}
+.container {
+    width: 800px;
+}
+
+.korrekt_words {
+}
+.firkant {
+    border: 1px solid black;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+}
+.firkant_text {
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 2px;
+}
+.citat {
+    cursor: pointer;
+}
+.false {
+    color: #888888;
+}
+.ydre_select {
+    background-color: #E9A1F6;
+    color: #333333;
+    cursor: pointer;
+    float: left;
+    margin-right: 9px;
+    padding: 3px 13px;
+}
+.indre_select {
+    background-color: #cecfcf;
+    color: #333333;
+    cursor: pointer;
+    float: left;
+    padding: 3px 20px;
+}
+.selected_text{
+    background-color: #5d5d5d;
+    color: white;
+}
+
+.prik {
+    float: left;
+    margin-bottom: 8px;
+    margin-right: 15px;
+}
+.prikker {
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.selected_class {
+    background-color: #C915E9;
+    font-weight: bold;
+}
+
+
+.btn_help {
+    background-color: #C915E9;
+    color: white;
+    float: right;
+    margin-right: 207px;
+    margin-top: 14px;
+}
+.tekst {
+    float: left;
+    font-weight: 600;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.pop_up_select {
+    background-color: white;
+    border: 0 solid #AAAAAA;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 2px 2px 10px 1px #AAAAAA;
+    height: 52px;
+    padding: 13px;
+    position: absolute;
+    text-align:center;
+    width: 140px;
+    cursor:move;
+    opacity: .9;
+}
+.arrow_up {
+    border-bottom: 20px solid white;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    height: 0;
+    margin-left: 50px;
+    margin-top: -32px;
+    position: absolute;
+    width: 0;
+}
+.lex {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    margin: -2px 2px 7px;
+}
+
