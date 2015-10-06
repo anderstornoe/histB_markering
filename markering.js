@@ -1,22 +1,31 @@
+var colors = ["transparent", "#d8b6c2", "#ffd700", "#40e0d0", "#d9f7f7", "#efdea1"];
+
 $(document).ready(function() {
-    var words = $(".brod_txt").text().split(' ');
-    //console.log(words + words.length);
 
-    for (var i = 0; i < words.length; i++) {
-        words[i] = "<span class='word'>" + words[i] + "</span> ";
+    $(".markering").click(function() {
+        
 
-    }
-    $(".brod_txt").html(words);
-
-    $(".word").click(function() {
-        if ($(this).hasClass("word_selected")) {
-        	console.log("hasClass");
-            $(this).removeClass("word_selected");
+        var value = parseInt($(this).attr("value"));
+        console.log("val: " + value);
+        if (value < colors.length-1) {
+            value = value + 1;
         } else {
-        	console.log("!hasClass");
-            $(this).addClass("word_selected");
+            value = 0
         }
 
+        $(this).fadeOut(0).css("background-color", colors[value]).fadeIn(500);
 
+        $(this).attr("value", value);
+
+        $(this).addClass("select 0");
     });
+
+
+    init();
 });
+
+function init() {
+    $(".box").each(function(index) {
+        $(this).css("background-color", colors[index+1]);
+    });
+};

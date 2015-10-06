@@ -3,33 +3,64 @@
 ******************************************************************************************************/
 
 h1 {
-	margin: 40px 0px; 
-	line-height: 1em;
+    margin: 40px 0px;
+    line-height: 1em;
 }
+
 h2 {
-	margin: 30px 0px 20px 0px; 
-	line-height: 1em;
+    margin: 30px 0px 20px 0px;
+    line-height: 1em;
 }
+
 h4 {
-	margin: 0px; 
-	line-height: 1em;
+    margin: 0px;
+    line-height: 1em;
 }
 
-
-.word{
-	cursor:pointer;
+.word {
+    cursor: pointer;
 }
 
-.word:hover{
-	border-radius: 2px;
-	background-color: #ccc;
+.word:hover {
+    border-radius: 2px;
+    background-color: #ccc;
 }
 
-.word_selected{
-	border-radius: 2px;
-	color:white;
-	background-color: #aaa;
-	height:4px;
+.word_selected {
+    border-radius: 2px;
+    color: white;
+    background-color: #aaa;
+    height: 4px;
 }
 
+.box {
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    background: red;
+    margin-right: 5px;
+    border-radius: 2px;
+}
 
+.klasse_container {
+    margin-top: 10px;
+}
+
+.box_select {
+    display: inline-flex;
+    margin-right: 20px;
+}
+
+.brod_txt {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.markering {
+    cursor: pointer;
+    border-radius: 4px;
+}
