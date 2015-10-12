@@ -13,33 +13,58 @@
 </head>
 
 <body>
+  
     <div class="container-fluid">
-        <h1>Objektoverskrift</h1>
-        <h4>Instruktion til kursisten: Kilk i teksten og finde de ord der siger noget om taksonomien:</h4>
-        <div class="col-xs-12">
-            <div class="klasse_container">
-                <div class="box_select">
-                    <div class="box"></div>Redegørende
+        <div class="instr_container">
+            <h1>Taksonomisk niveau</h1>
+             
+            <h4>Klik i teksten og find de sætninger, der siger noget om taksonomien.</h4>
+           <div class="col-xs-4">
+                <div class="klasse_container">
+                <h2>Oversigt </h2>
+                    <div class="box_select">
+                        <div class="box">Redegørende<span class="span_score">0/3</span></div>
+                    </div>
+                    <div class="box_select">
+                        <div class="box">Analyserende<span class="span_score">0/2</span></div>
+                    </div>
+                    <div class="box_select">
+                        <div class="box">Diskuterende<span class="span_score">0/3</span></div>
+                    </div>
+                    <div class="box_select">
+                        <div class="box">Vurderende<span class="span_score">0/4</span></div>
+                    </div>
+                    <div class="box_select">
+                        <div class="box">Perspektiverende<span class="span_score">0/3</span></div>
+                    </div>
                 </div>
-                <div class="box_select">
-                    <div class="box"></div>Analyserende
+                <div class="dropout_container">
+                    <div class="close_dropout">x</div>
+                    <div class="dropout">
+                        Redegørende
+                    </div>
+                    <div class="dropout">
+                        Analyserende
+                    </div>
+                    <div class="dropout">
+                        Diskuterende
+                    </div>
+                    <div class="dropout">
+                        Vurderende
+                    </div>
+                    <div class="dropout">
+                        Perspektiverende
+                    </div>
                 </div>
-                <div class="box_select">
-                    <div class="box"></div>Diskuterende
-                </div>
-                <div class="box_select">
-                    <div class="box"></div>Vurderende
-                </div>
-                <div class="box_select">
-                    <div class="box"></div>Perspektiverende
-                </div>
+                <div class = "score">Rigtige: 0/0 Fejl: 0</div>
+           <div class="btn btn-primary checkAnswer">Tjek svar</div>
             </div>
-            
-            <h2>Politiken</h2>
+                <div class="col-xs-8 tekst_container">
+            <h2>Attentat mod Hr. Estrup.</h2>
             <p>Torsdag den 22de Oktober.
             </p>
             <div class="brod_txt">
-                <p>Attentat mod Hr. Estrup.
+                <p>
                 </p>
                 <p><span class="markering 0">Med lige oprigtig Beklagelse</span> vil Venner og Modstandere modtage Efterretningen om det – heldigvis fuldstændig mislykkede – Attentat, for hvilket Konsejlspræsidenten igaar Eftermiddags har været Genstand udenfor sin Bopæl paa Tolbodvejen. Et purt ungt Menneske, 19 Aar gammel, har ladet sig henrive til at affyre to Skud mod Konsejlspræsidenten af en lille, og som det synes meget daarlig Revolver. Uagtet den ene Kugle ramte, gjorde den dog ingen Skade.
                 </p>
@@ -47,15 +72,16 @@
                 </p>
                 <p>Den gør det muligt at se den unge ulykkelige Mands Gærning i det Medlidenhedens Skær, som vilde være udelukket, hvis hans Forvildelse havde eller kunde have naaet sit Maal.
                 </p>
-                <p>Den kun alt for begrundede Ophidselse, som Ministeriets fortvivlede Politik har skabt i vort fredelige Samfund, i Forbindelse med den ministerielle Presses brutale Forhaanelser og den Række af Voldsomheder, der udøves mod hæderlige Borgere, kan forklare, men ikke undskylde Handlinger, om hvis Fordømmelighed der kun er én Mening her i Landet.
+                <p>Den kun alt for begrundede Ophidselse, <span class="markering 2">som Ministeriets fortvivlede Politik har skabt i vort </span>fredelige Samfund, i Forbindelse med den ministerielle Presses brutale Forhaanelser og den Række af Voldsomheder, der udøves mod hæderlige Borgere, kan forklare, men ikke undskylde Handlinger, om hvis Fordømmelighed der kun er én Mening her i Landet.
                 </p>
-                <p>At hengive sig til det Haab, at Begivenheder som denne, der hidtil heldigvis har været uhørte i vort Samfund, skulde blive et Motiv for Regeringen til at standse paa den ulykkesvangre Vej, den forfølger, vil desværre sikkert vise sig frugtesløst. Efter de Eksempler, som vore politiske Magthavere har stillet sig for Øje, man maa snarere være belavet paa, at denne unge ubesindige Mands ulykkelige Gerning vil blive benyttet som et Paaskud for yderligere Undertrykkelse.
+                <p><span class="markering 1">At hengive sig til det Haab</span>, at Begivenheder som denne, der hidtil heldigvis har været uhørte i vort Samfund, skulde blive et Motiv for Regeringen til at standse paa den ulykkesvangre Vej, den forfølger, vil desværre sikkert vise sig frugtesløst. Efter de Eksempler, som vore politiske Magthavere har stillet sig for Øje, man maa snarere være belavet paa, at denne unge ubesindige Mands ulykkelige Gerning vil blive benyttet som et Paaskud for yderligere Undertrykkelse.
                 </p>
                 <p>De Tider, vi gaar i møde, kræver hos alle gode Borgere en urokkelig Fasthed og Koldblodighed. Frihedens Venner her i Landet, der med ligesaa meget Maadehold som Standhaftighed har baaret Modstanderens Udæskninger og Overmod, vil ikke lade sig rokke fra deres Vej ved de Forsøg, som nu sikkert vil følge, paa at gøre et helt Folk ansvarligt for et enkelt Menneskes Forvildelse.
                 </p>
             </div>
         </div>
     </div>
+    </body>
     <script src="../library/vendor_scripts.js"></script>
     <script src="../library/custom_scripts.js"></script>
     <script src="markering.js"></script>
